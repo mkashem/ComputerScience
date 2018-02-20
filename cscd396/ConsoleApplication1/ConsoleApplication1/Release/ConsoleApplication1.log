@@ -1,0 +1,16 @@
+﻿Build started 1/10/2018 8:10:37 PM.
+     1>Project "C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt demo.cpp
+         demo.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\Release\ConsoleApplication1.exe" /INCREMENTAL:NO /NOLOGO "C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glew32.lib" "C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\glfw3dll.lib" "C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/Win32\freeglut.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\Release\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\Release\ConsoleApplication1.lib" /MACHINE:X86 /SAFESEH Release\demo.obj
+         Release\Triangle.obj
+     1>Triangle.obj : error LNK2005: _main already defined in demo.obj
+     1>Triangle.obj : error LNK2005: "void __cdecl display(void)" (?display@@YAXXZ) already defined in demo.obj
+     1>C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\Release\ConsoleApplication1.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.85

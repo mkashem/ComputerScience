@@ -1,0 +1,16 @@
+﻿Build started 1/12/2018 1:38:12 PM.
+     1>Project "C:\Users\mkashem\Desktop\Computer Science\cscd396\assignment\assignment\assignment.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\mkashem\Desktop\Computer Science\cscd396\assignment\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\assignment.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt assignment.cpp
+         assignment.cpp
+     1>c:\users\mkashem\desktop\computer science\cscd396\assignment\assignment\assignment.cpp(19): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+     1>c:\users\mkashem\desktop\computer science\cscd396\assignment\assignment\assignment.cpp(19): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+     1>c:\users\mkashem\desktop\computer science\cscd396\assignment\assignment\assignment.cpp(66): error C2664: 'void (GLuint,GLsizei,const GLchar **,const GLint *)': cannot convert argument 3 from 'char **' to 'const GLchar **'
+         c:\users\mkashem\desktop\computer science\cscd396\assignment\assignment\assignment.cpp(66): note: Conversion loses qualifiers
+     1>c:\users\mkashem\desktop\computer science\cscd396\assignment\assignment\assignment.cpp(67): error C2664: 'void (GLuint,GLsizei,const GLchar **,const GLint *)': cannot convert argument 3 from 'char **' to 'const GLchar **'
+         c:\users\mkashem\desktop\computer science\cscd396\assignment\assignment\assignment.cpp(67): note: Conversion loses qualifiers
+     1>Done Building Project "C:\Users\mkashem\Desktop\Computer Science\cscd396\assignment\assignment\assignment.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.65

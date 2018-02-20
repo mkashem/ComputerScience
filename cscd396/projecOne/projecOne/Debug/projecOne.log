@@ -1,0 +1,18 @@
+﻿Build started 1/12/2018 2:09:38 PM.
+     1>Project "C:\Users\mkashem\Desktop\Computer Science\cscd396\projecOne\projecOne\projecOne.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mkashem\Desktop\Computer Science\cscd396\projecOne\Debug\projecOne.exe" /INCREMENTAL /NOLOGO freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\mkashem\Desktop\Computer Science\cscd396\projecOne\Debug\projecOne.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mkashem\Desktop\Computer Science\cscd396\projecOne\Debug\projecOne.lib" /MACHINE:X86 Debug\Triangle.obj
+     1>Triangle.obj : error LNK2019: unresolved external symbol __imp__glutInitWindowPosition@8 referenced in function _main
+     1>Triangle.obj : error LNK2019: unresolved external symbol __imp__glutInitWindowSize@8 referenced in function _main
+     1>Triangle.obj : error LNK2019: unresolved external symbol __imp__glutInitDisplayMode@4 referenced in function _main
+     1>Triangle.obj : error LNK2019: unresolved external symbol __imp__glutMainLoop@0 referenced in function _main
+     1>Triangle.obj : error LNK2019: unresolved external symbol __imp__glutDisplayFunc@4 referenced in function _main
+     1>Triangle.obj : error LNK2019: unresolved external symbol __imp____glutInitWithExit@12 referenced in function _glutInit_ATEXIT_HACK@8
+     1>Triangle.obj : error LNK2019: unresolved external symbol __imp____glutCreateWindowWithExit@8 referenced in function _glutCreateWindow_ATEXIT_HACK@4
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\freeglut.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'X86'
+     1>C:\Users\mkashem\Desktop\Computer Science\cscd396\projecOne\Debug\projecOne.exe : fatal error LNK1120: 7 unresolved externals
+     1>Done Building Project "C:\Users\mkashem\Desktop\Computer Science\cscd396\projecOne\projecOne\projecOne.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.03

@@ -1,0 +1,16 @@
+﻿Build started 1/18/2018 1:23:16 PM.
+     1>Project "C:\Users\mkashem\Desktop\Computer Science\cscd396\tutorial\tutorial\tutorial.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\mkashem\Desktop\Computer Science\cscd396\tutorial\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Triangle.cpp
+         Triangle.cpp
+     1>c:\users\mkashem\desktop\computer science\cscd396\tutorial\tutorial\triangle.cpp(14): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+     1>c:\users\mkashem\desktop\computer science\cscd396\tutorial\tutorial\triangle.cpp(14): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+     1>c:\users\mkashem\desktop\computer science\cscd396\tutorial\tutorial\triangle.cpp(61): error C2664: 'void (GLuint,GLsizei,const GLchar **,const GLint *)': cannot convert argument 3 from 'char **' to 'const GLchar **'
+         c:\users\mkashem\desktop\computer science\cscd396\tutorial\tutorial\triangle.cpp(61): note: Conversion loses qualifiers
+     1>c:\users\mkashem\desktop\computer science\cscd396\tutorial\tutorial\triangle.cpp(62): error C2664: 'void (GLuint,GLsizei,const GLchar **,const GLint *)': cannot convert argument 3 from 'char **' to 'const GLchar **'
+         c:\users\mkashem\desktop\computer science\cscd396\tutorial\tutorial\triangle.cpp(62): note: Conversion loses qualifiers
+     1>Done Building Project "C:\Users\mkashem\Desktop\Computer Science\cscd396\tutorial\tutorial\tutorial.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:12.92

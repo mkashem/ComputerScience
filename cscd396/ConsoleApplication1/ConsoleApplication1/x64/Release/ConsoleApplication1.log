@@ -1,0 +1,18 @@
+﻿Build started 1/9/2018 7:25:01 PM.
+     1>Project "C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc140.pdb" /Gd /TP /errorReport:prompt Triangle.cpp
+         Triangle.cpp
+     1>Triangle.cpp(145): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+     1>Triangle.cpp(145): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\x64\Release\ConsoleApplication1.exe" /INCREMENTAL:NO /NOLOGO "C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/x64\glew32.lib" "C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/x64\glfw3dll.lib" "C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/lib/x64\freeglut.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\x64\Release\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\x64\Release\ConsoleApplication1.lib" /MACHINE:X64 x64\Release\Triangle.obj
+         Generating code
+         All 11 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         ConsoleApplication1.vcxproj -> C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\x64\Release\ConsoleApplication1.exe
+     1>Done Building Project "C:\Users\mkashem\Desktop\Computer Science\cscd396\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:14.14

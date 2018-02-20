@@ -1,0 +1,22 @@
+﻿Build started 1/9/2018 2:16:05 PM.
+     1>Project "C:\Users\mkashem\Desktop\Computer Science\cscd396\OpenGLApp\OpenGLApp\OpenGLApp.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt demo.cpp
+         demo.cpp
+     1>demo.cpp(145): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+     1>demo.cpp(145): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\mkashem\Desktop\Computer Science\cscd396\OpenGLApp\Release\OpenGLApp.exe" /INCREMENTAL:NO /NOLOGO freeglut.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\mkashem\Desktop\Computer Science\cscd396\OpenGLApp\Release\OpenGLApp.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\mkashem\Desktop\Computer Science\cscd396\OpenGLApp\Release\OpenGLApp.lib" /MACHINE:X86 /SAFESEH Release\demo.obj
+     1>demo.obj : error LNK2001: unresolved external symbol __imp____glutCreateWindowWithExit@8
+     1>demo.obj : error LNK2001: unresolved external symbol __imp____glutInitWithExit@12
+     1>demo.obj : error LNK2001: unresolved external symbol __imp__glutInitDisplayMode@4
+     1>demo.obj : error LNK2001: unresolved external symbol __imp__glutDisplayFunc@4
+     1>demo.obj : error LNK2001: unresolved external symbol __imp__glutMainLoop@0
+     1>demo.obj : error LNK2001: unresolved external symbol __imp__glutInitWindowPosition@8
+     1>demo.obj : error LNK2001: unresolved external symbol __imp__glutInitWindowSize@8
+     1>C:\Users\mkashem\Desktop\Computer Science\cscd396\OpenGLApp\Release\OpenGLApp.exe : fatal error LNK1120: 7 unresolved externals
+     1>Done Building Project "C:\Users\mkashem\Desktop\Computer Science\cscd396\OpenGLApp\OpenGLApp\OpenGLApp.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.98

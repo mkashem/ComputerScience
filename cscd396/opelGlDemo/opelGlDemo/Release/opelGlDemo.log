@@ -1,0 +1,30 @@
+﻿Build started 1/12/2018 2:01:17 PM.
+     1>Project "C:\Users\mkashem\Desktop\Computer Science\cscd396\opelGlDemo\opelGlDemo\opelGlDemo.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Users\mkashem\Desktop\Computer Science\cscd396\opelGlDemo\packages\nupengl.core.0.1.0.1\build\native\../..//build/native/include/" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Release\opelGlDemo.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt opelGlDemo.cpp
+         opelGlDemo.cpp
+     1>opelGlDemo.cpp(64): error C2065: 'v': undeclared identifier
+     1>opelGlDemo.cpp(65): error C2065: 'f': undeclared identifier
+     1>opelGlDemo.cpp(70): error C2065: 'v': undeclared identifier
+     1>opelGlDemo.cpp(71): error C2065: 'f': undeclared identifier
+     1>opelGlDemo.cpp(75): error C2065: 'v': undeclared identifier
+     1>opelGlDemo.cpp(77): error C2065: 'v': undeclared identifier
+     1>opelGlDemo.cpp(80): error C2065: 'v': undeclared identifier
+     1>opelGlDemo.cpp(83): error C2065: 'v': undeclared identifier
+     1>opelGlDemo.cpp(88): error C2065: 'f': undeclared identifier
+     1>opelGlDemo.cpp(90): error C2065: 'f': undeclared identifier
+     1>opelGlDemo.cpp(93): error C2065: 'f': undeclared identifier
+     1>opelGlDemo.cpp(96): error C2065: 'f': undeclared identifier
+     1>opelGlDemo.cpp(101): error C2065: 'v': undeclared identifier
+     1>opelGlDemo.cpp(102): error C2065: 'f': undeclared identifier
+     1>opelGlDemo.cpp(124): error C2065: 'vao': undeclared identifier
+     1>opelGlDemo.cpp(125): error C2065: 'vao': undeclared identifier
+     1>opelGlDemo.cpp(126): error C2065: 'vbo': undeclared identifier
+     1>opelGlDemo.cpp(127): error C2065: 'vbo': undeclared identifier
+     1>opelGlDemo.cpp(128): error C2065: 'vertices': undeclared identifier
+     1>opelGlDemo.cpp(139): error C2065: 'vao': undeclared identifier
+     1>Done Building Project "C:\Users\mkashem\Desktop\Computer Science\cscd396\opelGlDemo\opelGlDemo\opelGlDemo.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.97
